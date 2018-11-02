@@ -43,6 +43,17 @@
 	- 不想删了 git checkout -- file 从版本库中恢复到工作区
 	- 已经删除的文件只能从版本库中恢复到最新的版本
 	
-	-
+	- 添加远程库
+		* 首先查看本机Git主目录 cd ~ 下有没有.ssh文件夹 如果有 看里面有没有id_rsa和id_rsa.pub这两个文件
+		* 如果没有 在主目录下
+			ssh-keygen -t rsa -C “youremail@example.com"
+		* 生成后id_rsa.pub文件中的内容添加到github上
+		* 在github上新建库 把本地库添加到远程库
+			git remote add origin git@github.com:wym19691705/git.git  //连接远程库
+			git push -u origin master			//推送本地库  -u 第一次使用后就把两端自动连接 以后就不用再加了
+			
+	- 从远程库克隆
+		* 先从行程建库 然后克隆到本地
+			$ git clone git@github.com:wym19691705/gitclone.git
 	
 	
