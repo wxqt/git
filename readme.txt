@@ -39,3 +39,8 @@
 	- 撤销修改 在git add后并没有commit 文件只是在暂存区 这时用git checkout -- readme.txt 就可以回退到上一个提交 把工作区的改动回退到以前
 	- 用git reset HEAD readme.txt 把暂存区的文件重新放回工作区 工作区的改动不变
 	
+	- 删除文件 先手动删队文件 再git rm file 再git commit -m "del file" 
+	- 不想删了 git checkout -- file 从版本库中恢复到工作区
+	
+	
+	
