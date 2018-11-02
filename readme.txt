@@ -65,5 +65,8 @@
 		git checkout -b dev
 	- 查看分支
 		git branch		//带*号的为当前分支
-		
+	- 合并分支 切换到主分支中 将dev合并到master
+		git branch dev
+	- 删除分支
+		git branch -d dev
 		
