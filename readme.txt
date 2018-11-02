@@ -41,6 +41,8 @@
 	
 	- 删除文件 先手动删队文件 再git rm file 再git commit -m "del file" 
 	- 不想删了 git checkout -- file 从版本库中恢复到工作区
+	- 已经删除的文件只能从版本库中恢复到最新的版本
 	
+	-
 	
 	
