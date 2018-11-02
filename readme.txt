@@ -36,4 +36,6 @@
 		c42c414 HEAD@{4}: commit: second modfiy
 		c4f4057 HEAD@{5}: commit (initial): the first add
 		
-	- no
+	- 撤销修改 在git add后并没有commit 文件只是在暂存区 这时用git checkout -- readme.txt 就可以回退到上一个提交 把工作区的改动回退到以前
+	- 用git reset HEAD readme.txt 把暂存区的文件重新放回工作区 工作区的改动不变
+	
