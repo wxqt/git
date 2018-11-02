@@ -21,3 +21,15 @@
 		
 	- 用git log 查看提交记录 --pretty=oneline可以单行显示
 		git log
+		
+		jsdklfjasdfj aslkd;f;lkasdf
+		sad
+		file1asdf
+		asdf
+		sadadf
+		asdfasd
+		file1asdfasdf
+		sadf
+		asdfasdf
+		asdff
+		asdf
