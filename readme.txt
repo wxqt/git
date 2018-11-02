@@ -21,15 +21,19 @@
 		
 	- 用git log 查看提交记录 --pretty=oneline可以单行显示
 		git log
+
+	- 回退记录 git reset --hard "id" 将HEAD指针指向commit id就可以了
+	- 也可以git reset --hard HEAD^回退上一个
+	- 也可以git reset --hard HEAD^^回退上两个 或 HEAD^^^^^^^^n个
+		git reset --hard HEAD^
 		
-		jsdklfjasdfj aslkd;f;lkasdf
-		sad
-		file1asdf
-		asdf
-		sadadf
-		asdfasd
-		file1asdfasdf
-		sadf
-		asdfasdf
-		asdff
-		asdf
+	- 回退记录后git log找不到最近的记录了 用git reflog 查看以往的命令记录 找到commit id 再执行git reset
+		$ git reflog
+		a079f31 (HEAD -> master) HEAD@{0}: reset: moving to HEAD^
+		c27af6e HEAD@{1}: commit: asdfadf
+		a079f31 (HEAD -> master) HEAD@{2}: commit: add log
+		def03e0 HEAD@{3}: commit: third add
+		c42c414 HEAD@{4}: commit: second modfiy
+		c4f4057 HEAD@{5}: commit (initial): the first add
+		
+	- 
