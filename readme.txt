@@ -56,6 +56,14 @@
 		* 先从行程建库 然后克隆到本地
 			$ git clone git@github.com:wym19691705/gitclone.git
 	
-	- 创建分支
-		git checkout -b dev 
 	
+	- 创建分支
+		git branch dev
+	- 切换到分支
+		git checkout dev
+	- 也可以用
+		git checkout -b dev
+	- 查看分支
+		git branch		//带*号的为当前分支
+		
+		
