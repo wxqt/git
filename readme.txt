@@ -56,4 +56,6 @@
 		* 先从行程建库 然后克隆到本地
 			$ git clone git@github.com:wym19691705/gitclone.git
 	
+	- 创建分支
+		git checkout -b dev 
 	
