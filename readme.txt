@@ -61,7 +61,7 @@
 		git branch dev
 	- 切换到分支
 		git checkout dev
-	- 也可以用
+	- 也可以用	-b  创建加切换
 		git checkout -b dev
 	- 查看分支
 		git branch		//带*号的为当前分支
