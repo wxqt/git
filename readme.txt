@@ -49,12 +49,12 @@
 			ssh-keygen -t rsa -C “youremail@example.com"
 		* 生成后id_rsa.pub文件中的内容添加到github上
 		* 在github上新建库 把本地库添加到远程库
-			git remote add origin git@github.com:wym19691705/git.git  //连接远程库
+			git remote add origin git@github.com:wxqt/git.git  //连接远程库
 			git push -u origin master			//推送本地库  -u 第一次使用后就把两端自动连接 以后就不用再加了
 			
 	- 从远程库克隆
 		* 先从行程建库 然后克隆到本地
-			$ git clone git@github.com:wym19691705/gitclone.git
+			$ git clone git@github.com:wxqt/gitclone.git
 	
 	
 	- 创建分支
@@ -65,7 +65,7 @@
 		git checkout -b dev
 	- 查看分支
 		git branch		//带*号的为当前分支
-	- 合并分支 切换到主分支中 将dev合并到master
+	- 合并分支 切换到主分支中 将dev合并到masterdx                                                                                     
 		git branch dev
 	- 删除分支
 		git branch -d dev
